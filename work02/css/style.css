@@ -33,22 +33,16 @@ img {
 
 ul{
     display: flex;
-    justify-content: space-between;
-    max-width: 960px;
     align-items: center;
 }
 
 .item{
-    white-space: nowrap;
-    flex-basis: auto;
-    margin: 10px;
     border-right: 1px solid#000 ;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 .item:last-child{
     border-right: none;
-    padding: 0%;
 }
 
 .wrap1{
@@ -99,7 +93,6 @@ ul{
     .item{
         border-right: none;
         border-bottom: 1px solid#000;
-        width: 200px;
         padding: 0;
     }
 }
